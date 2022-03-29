@@ -17,19 +17,26 @@
 <body>
 
     <div class="container my-4 d-flex justify-content-center">
-        <div class="row">
-            <div class="col">
+        <div class="row g-5">
+            <div class="col text-center">
                 <h2>Email</h2>
                 <label for="">Email:</label>
-                <input class="email my-3" type="email" placeholder="Inserisci Email" required>
-                <button class="accedi my-3">Accedi</button>
-                <div class="accesso my-3"></div>
+                <input class="email my-3 rounded-3" type="email" placeholder="Inserisci Email" required>
+                <button class="accedi btn-warning rounded-pill my-3">Accedi</button>
+                <div class="accesso my-3 fs-5 fw-bold"></div>
             </div>
-            <div class="col">
+            <div class="col text-center">
                 <h2>Dadi Game</h2>
-                <div class="gamer my-3"><strong>TU</strong></div>
-                <div class="computer my-3"><strong>COMPUTER</strong></div>
-                <div class="risultato my-3"></div>
+                <p class="lead">
+                    <strong>Sfida la sorte!!</strong> <br> 
+                    Scopri chi vince tra te e il computer!
+                </p>
+                <button class="sfida btn-warning rounded-pill my-3">Sfida</button>
+                <button class="reset btn-warning rounded-pill my-3">Resetta</button>
+
+                <div class="gamer my-3">TU:</div>
+                <div class="computer my-3">COMPUTER:</div>
+                <div class="risultato my-3 fs-5 fw-bold"></div>
             </div>
         </div>
         
